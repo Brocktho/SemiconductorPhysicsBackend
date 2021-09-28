@@ -2,6 +2,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const uuid = require("uuid");
 const {MongoClient} = require("mongodb");
+const PORT = process.env.PORT || 5000;
+if (PORT == null || PORT == ""){
+    PORT = 8000;
+}
 
 const app = express();
 
@@ -65,7 +69,7 @@ async function main(){
         .json({ message: "Created new post.", ChapterPage: createdPost });
     });
 
-    app.listen("https://semiconductor-physics-backend.herokuapp.com");
+    app.listen(PORT);
     
     }).catch(error =>console.error(error));
     } finally{

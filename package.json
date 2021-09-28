@@ -1,0 +1,28 @@
+{
+  "name": "ee340backend",
+  "version": "1.0.0",
+  "description": "Backend for EE340 Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brocktho/SemiconductorPhysicsSite.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Brock Donahue",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "uuid": "^3.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Brocktho/SemiconductorPhysicsSite/issues"
+  },
+  "homepage": "https://github.com/Brocktho/SemiconductorPhysicsSite#readme"
+}

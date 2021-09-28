@@ -65,7 +65,7 @@ async function main(){
         .json({ message: "Created new post.", ChapterPage: createdPost });
     });
 
-    app.listen("http://Brocktho.github.io/SemiconductorPhysicsSite");
+    app.listen(3000);
     
     }).catch(error =>console.error(error));
     } finally{

@@ -65,7 +65,7 @@ async function main(){
         .json({ message: "Created new post.", ChapterPage: createdPost });
     });
 
-    app.listen(5000);
+    app.listen("https://semiconductor-physics-backend.herokuapp.com");
     
     }).catch(error =>console.error(error));
     } finally{
